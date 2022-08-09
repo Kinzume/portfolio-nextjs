@@ -1,8 +1,8 @@
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
-import twitchImg from "../public/assets/projects/twitch.jpg";
+import portfolioImg from "../public/assets/projects/portfolio-dmf.png";
+import calculatorImg from "../public/assets/projects/calculator.png";
+import ratingImg from "../public/assets/projects/rating-component.png";
+import tourismImg from "../public/assets/projects/space-tourism.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -14,24 +14,24 @@ const Projects = () => {
       <h2 className="py-4">What I've Built</h2>
       <div className="grid md:grid-cols-2 gap-8">
         <ProjectItem
-          title="Property Finder"
-          backgroundImg={propertyImg}
-          projectUrl="/property"
+          title="Personal Portfolio"
+          backgroundImg={portfolioImg}
+          projectUrl="/portfolio"
         />
         <ProjectItem
-          title="Crypto App"
-          backgroundImg={cryptoImg}
-          projectUrl="/crypto"
+          title="Calculator App"
+          backgroundImg={calculatorImg}
+          projectUrl="/calculator"
         />
         <ProjectItem
-          title="Netflix App"
-          backgroundImg={netflixImg}
-          projectUrl="/netflix"
+          title="Interactive Rating Component"
+          backgroundImg={ratingImg}
+          projectUrl="/rating"
         />
         <ProjectItem
-          title="Twitch App"
-          backgroundImg={twitchImg}
-          projectUrl="/twitch"
+          title="Space Tourism Website"
+          backgroundImg={tourismImg}
+          projectUrl="/tourism"
         />
       </div>
     </div>

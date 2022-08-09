@@ -16,21 +16,29 @@ const Projects = () => {
         <ProjectItem
           title="Personal Portfolio"
           backgroundImg={portfolioImg}
+          projectDate="Mar 2022"
+          projectSkills="HTML | CSS"
           projectUrl="/portfolio"
         />
         <ProjectItem
           title="Calculator App"
           backgroundImg={calculatorImg}
+          projectDate="Apr 2022"
+          projectSkills="HTML | CSS | JavaScript"
           projectUrl="/calculator"
         />
         <ProjectItem
           title="Interactive Rating Component"
           backgroundImg={ratingImg}
+          projectDate="Apr 2022"
+          projectSkills="HTML | CSS"
           projectUrl="/rating"
         />
         <ProjectItem
           title="Space Tourism Website"
           backgroundImg={tourismImg}
+          projectDate="May 2022 - Jun 2022"
+          projectSkills="HTML | CSS | JavaScript"
           projectUrl="/tourism"
         />
       </div>

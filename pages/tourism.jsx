@@ -46,14 +46,14 @@ const tourism = () => {
           <div className="space-x-2">
             <a
               href="https://kinzume.github.io/space-tourism-website-main/"
-              target="_target"
+              target="_blank"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
             >
               Demo
             </a>
             <a
               href="https://github.com/Kinzume/space-tourism-website-main"
-              target="_target"
+              target="_blank"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
             >
               Code

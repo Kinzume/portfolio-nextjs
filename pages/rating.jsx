@@ -38,8 +38,8 @@ const rating = () => {
             </a>
             . <br /> The user should be able to see hover states for the buttons
             and submit button, select and submit a number rating and see the
-            "Thank you" card state after submitting the rating. <br /> I learnt
-            how to use Google&apos;s{" "}
+            &quot;Thank you&quot; card state after submitting the rating. <br />{" "}
+            I learnt how to use Google&apos;s{" "}
             <a
               href="https://developer.chrome.com/docs/devtools/"
               target="_blank"
@@ -49,23 +49,23 @@ const rating = () => {
               Chrome DevTools
             </a>{" "}
             to position elements on the page using Flexbox, built my own event
-            listener for displaying the "Thank you" card and learnt how to style
-            checked radio buttons using the <code>:checked</code> and{" "}
-            <code>+</code> element selectors. <br /> I&apos;ve included a
+            listener for displaying the &quot;Thank you&quot; card and learnt
+            how to style checked radio buttons using the <code>:checked</code>{" "}
+            and <code>+</code> element selectors. <br /> I&apos;ve included a
             snippet of the code for the event listener in the repo&apos;s readme
             file.
           </p>
           <div className="space-x-2">
             <a
               href="https://kinzume.github.io/interactive-rating-component-main/"
-              target="_target"
+              target="_blank"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
             >
               Demo
             </a>
             <a
               href="https://github.com/Kinzume/interactive-rating-component-main"
-              target="_target"
+              target="_blank"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
             >
               Code

@@ -150,6 +150,7 @@ const Navbar = () => {
               <a
                 href="https://www.linkedin.com/in/leanderabaya/"
                 target="_blank"
+                rel="noreferrer"
                 className="rounded-full  bg-[#1F2E45] text-[#E0E0E0] p-4 cursor-pointer"
               >
                 <FaLinkedinIn size="2rem" />
@@ -157,6 +158,7 @@ const Navbar = () => {
               <a
                 href="https://github.com/Kinzume"
                 target="_blank"
+                rel="noreferrer"
                 className="rounded-full  bg-[#1F2E45] text-[#E0E0E0] p-4 cursor-pointer"
               >
                 <FaGithub size="2rem" />

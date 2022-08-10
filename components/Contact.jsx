@@ -15,6 +15,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/leanderabaya/"
             target="_blank"
+            rel="noreferrer"
             className="rounded-full bg-[#0F1E35] p-6 cursor-pointer hover:text-[#93FF75] hover:bg-[#1F2E45] ease-in duration-200"
           >
             <FaLinkedinIn size="2rem" />
@@ -22,6 +23,7 @@ const Contact = () => {
           <a
             href="https://github.com/Kinzume"
             target="_blank"
+            rel="noreferrer"
             className="rounded-full bg-[#0F1E35] p-6 cursor-pointer hover:text-[#93FF75] hover:bg-[#1F2E45] ease-in duration-200"
           >
             <FaGithub size="2rem" />
@@ -35,6 +37,7 @@ const Contact = () => {
             className="underline hover:text-[#93FF75] ease-in duration-200"
             href="https://nextjs.org/"
             target="_blank"
+            rel="noreferrer"
           >
             Next.js
           </a>{" "}
@@ -43,6 +46,7 @@ const Contact = () => {
             className="underline hover:text-[#93FF75] ease-in duration-200"
             href="https://tailwindcss.com/"
             target="_blank"
+            rel="noreferrer"
           >
             Tailwind CSS
           </a>
@@ -51,6 +55,7 @@ const Contact = () => {
             className="underline hover:text-[#93FF75] ease-in duration-200"
             href="https://github.com/Kinzume/portfolio-nextjs"
             target="_blank"
+            rel="noreferrer"
           >
             here
           </a>

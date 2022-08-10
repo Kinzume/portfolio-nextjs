@@ -36,6 +36,7 @@ const calculator = () => {
             <a
               href="https://www.youtube.com/watch?v=j59qQ7YWLxw&ab_channel=WebDevSimplified"
               target="_blank"
+              rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
               Web Dev Simplified's video

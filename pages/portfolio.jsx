@@ -35,6 +35,7 @@ const portfolio = () => {
             <a
               href="https://www.freecodecamp.org/learn/responsive-web-design/"
               target="_blank"
+              rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
               responsive web design course
@@ -43,6 +44,7 @@ const portfolio = () => {
             <a
               href="https://brittanychiang.com/"
               target="_blank"
+              rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
               Britanny Chiang
@@ -51,6 +53,7 @@ const portfolio = () => {
             <a
               href="https://www.lapix.jp/"
               target="_blank"
+              rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
               Lapix

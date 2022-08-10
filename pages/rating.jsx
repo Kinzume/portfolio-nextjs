@@ -31,6 +31,7 @@ const rating = () => {
             <a
               href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI"
               target="_blank"
+              rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
               interactive rating component challenge on Frontend Mentor
@@ -42,6 +43,7 @@ const rating = () => {
             <a
               href="https://developer.chrome.com/docs/devtools/"
               target="_blank"
+              rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
               Chrome DevTools

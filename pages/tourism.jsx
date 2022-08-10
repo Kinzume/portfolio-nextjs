@@ -30,6 +30,7 @@ const tourism = () => {
             <a
               href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3"
               target="_blank"
+              rel="noreferrer"
             >
               space tourism website challenge on Frontend Mentor.
             </a>

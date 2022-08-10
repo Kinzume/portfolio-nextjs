@@ -10,15 +10,31 @@ const About = () => {
           </p>
           <h2 className="py-2">Who I Am</h2>
           <p className="py-2">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus
-            assumenda laudantium voluptatem saepe quasi delectus facilis dicta
-            ratione iste reiciendis numquam, facere odio? Numquam incidunt natus
-            minima cupiditate dignissimos corporis!
+            My name's Leander, I've been learning front-end technologies since
+            early 2022.
           </p>
           <p className="py-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit
-            sunt consectetur earum officiis necessitatibus mollitia magni quod
-            laborum ducimus!
+            My first experience with programming came from tinkering in game
+            development in 2008 where I built games using the scripting language
+            Lua in a popular video game called ROBLOX. Fast forward to
+            university in 2019, I gained working knowledge of C++ and Python to
+            solve mathematical problems in Calculus and Graph Theory. It was
+            around this time I stumbled upon freecodecamp's responsive web
+            design course where I studied some basic HTML. After graduating I
+            worked in finance at a local authority for 18 months.
+          </p>
+          <p className="py-2">
+            I wanted to transition into the tech industry and tackle real world
+            challenges with programming. I've dedicated time to completing
+            freecodecamp's responsive web design and JavaScript data structures
+            and algorithms courses and completed various projects such as a
+            personal portfolio, calculator and fully responsive space tourism
+            website.
+          </p>
+          <p className="py-2">
+            I'm currently learning how to use a popular front-end framework
+            called React to build more complex applications. I'm currently open
+            to full-time employment opportunities for front-end development.
           </p>
         </div>
         <img

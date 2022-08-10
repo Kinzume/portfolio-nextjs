@@ -1,5 +1,6 @@
 import { BsArrowRightShort } from "react-icons/bs";
 import React from "react";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -14,13 +15,12 @@ const Main = () => {
             passion for programming and problem-solving. Seeking an entry-level
             role in front-end development.
           </p>
-          <a
-            href="/#projects"
-            className="flex items-center mx-auto w-fit gap-1 tracking-wider py-4 px-8 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
-          >
-            Projects
-            <BsArrowRightShort />
-          </a>
+          <Link href="/#projects">
+            <p className="flex items-center mx-auto w-fit gap-1 tracking-wider py-4 px-8 rounded-xl uppercase cursor-pointer bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200">
+              Projects
+              <BsArrowRightShort />
+            </p>
+          </Link>
         </div>
       </div>
     </div>

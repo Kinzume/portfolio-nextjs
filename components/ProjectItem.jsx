@@ -17,12 +17,12 @@ const ProjectItem = ({
           src={backgroundImg}
           alt="/"
         />
-        <div className="text-[#000C1F] hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] space-y-4 text-center">
-          <h3 className="text-2xl tracking-wider ">{title}</h3>
-          <p className="text-xl">{projectDate}</p>
-          <p className="text-xl">{projectSkills}</p>
+        <div className="text-[#000C1F] hidden group-hover:block absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] md:space-y-4 text-center">
+          <h3 className=" text-base md:text-2xl tracking-wider ">{title}</h3>
+          <p className="text-sm md:text-xl">{projectDate}</p>
+          <p className="text-sm md:text-xl">{projectSkills}</p>
           <Link href={projectUrl}>
-            <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer">
+            <p className="text-center md:py-3 rounded-lg bg-white text-gray-700 font-bold md:text-lg cursor-pointer">
               More Info
             </p>
           </Link>

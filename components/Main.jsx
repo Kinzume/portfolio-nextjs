@@ -7,7 +7,7 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center ">
         <div className=" space-y-5">
           <h1 className="py-4">
-            Hi I'm <span className="text-[#93FF75]">Leander</span>
+            Hi I&apos;m <span className="text-[#93FF75]">Leander</span>
           </h1>
           <p className=" text-lg py-4 max-w-[70%] m-auto">
             A self-motivated and determined first-class honours graduate with a

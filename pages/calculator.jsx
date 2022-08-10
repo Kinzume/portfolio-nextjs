@@ -29,9 +29,9 @@ const calculator = () => {
           <p>
             This calculator was built with HTML, CSS and JavaScript (no
             frameworks). <br /> The user can add, subtract, multiply and divide
-            numbers and display the final answer. <br /> I've added a copy of my
-            first attempt at programming the buttons with JavaScript called{" "}
-            <code>main.js</code>. <br /> My second attempt called{" "}
+            numbers and display the final answer. <br /> I&apos;ve added a copy
+            of my first attempt at programming the buttons with JavaScript
+            called <code>main.js</code>. <br /> My second attempt called{" "}
             <code>main2.js</code> uses{" "}
             <a
               href="https://www.youtube.com/watch?v=j59qQ7YWLxw&ab_channel=WebDevSimplified"
@@ -39,7 +39,7 @@ const calculator = () => {
               rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
-              Web Dev Simplified's video
+              Web Dev Simplified&apos;s video
             </a>{" "}
             as a guide. <br /> I learnt how to organise the code into a class
             with different functions (methods) for displaying and computing the

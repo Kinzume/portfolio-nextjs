@@ -144,7 +144,7 @@ const Navbar = () => {
           </div>
           <div className="pt-40">
             <p className="uppercase tracking-widest text-[#93FF75] text-center">
-              Let's Connect
+              Let&apos;s Connect
             </p>
             <div className="flex items-center justify-center py-4 gap-4">
               <a

@@ -31,7 +31,7 @@ const portfolio = () => {
             navigate to different sections of the page and find links to
             projects. <br /> This project was used as an opportunity to practise
             my CSS skills (Grid, Custom Properties and Resets) which I learnt
-            from freecodecamp's{" "}
+            from freecodecamp&apos;s{" "}
             <a
               href="https://www.freecodecamp.org/learn/responsive-web-design/"
               target="_blank"

@@ -39,7 +39,7 @@ const tourism = () => {
             on space tourism. <br /> Some of my learnings include CSS{" "}
             <code>.class1.class2</code> selectors, feature queries, various
             Flexbox and Grid properties, local undefined custom properties,
-            ARIA, building interactive elements with JavaScript with WAI-ARIA
+            ARIA, building interactive elements with JavaScript and WAI-ARIA
             roles and semantic HTML practices.
           </p>
           <div className="space-x-2">

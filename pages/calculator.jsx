@@ -49,6 +49,7 @@ const calculator = () => {
             <a
               href="https://kinzume.github.io/calculator-javascript/"
               target="_blank"
+              rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
             >
               Demo
@@ -56,6 +57,7 @@ const calculator = () => {
             <a
               href="https://github.com/Kinzume/calculator-javascript"
               target="_blank"
+              rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
             >
               Code

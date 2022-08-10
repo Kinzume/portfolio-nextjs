@@ -9,17 +9,18 @@ const Main = () => {
           <h1 className="py-4">
             Hi I'm <span className="text-[#93FF75]">Leander</span>
           </h1>
-          <p className="py-2">A Front-End Web Developer</p>
-          <p className="py-4max-w-[70%] m-auto">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore ea
-            consequatur voluptates esse. Quod soluta cum officiis voluptate,
-            consectetur, pariatur distinctio ducimus maiores officia nesciunt
-            delectus, facere perferendis error beatae.
+          <p className=" text-lg py-4 max-w-[70%] m-auto">
+            A self-motivated and determined first-class honours graduate with a
+            passion for programming and problem-solving. Seeking an entry-level
+            role in front-end development.
           </p>
-          <button className="flex items-center m-auto gap-1">
+          <a
+            href="/#projects"
+            className="flex items-center mx-auto w-fit gap-1 tracking-wider py-4 px-8 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
+          >
             Projects
             <BsArrowRightShort />
-          </button>
+          </a>
         </div>
       </div>
     </div>

@@ -25,9 +25,6 @@ html {
   h2 {
     @apply text-3xl sm:text-4xl;
   }
-  li {
-    @apply cursor-pointer;
-  }
   button {
     @apply tracking-wider py-4 px-8 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200;
   }

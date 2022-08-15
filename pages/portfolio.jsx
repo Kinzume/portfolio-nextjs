@@ -28,10 +28,10 @@ const portfolio = () => {
           <p>
             This is my first personal portfolio site which I designed in Figma
             and built with HTML and CSS (no frameworks). <br /> The user can
-            navigate to different sections of the page and find links to
-            projects. <br /> This project was used as an opportunity to practise
-            my CSS skills (Grid, Custom Properties and Resets) which I learnt
-            from freecodecamp&apos;s{" "}
+            navigate to the Home, About, Portfolio and Contact sections. <br />{" "}
+            This project was used as an opportunity to practise my CSS skills
+            (Grid, Custom Properties and Resets) which I learnt from
+            freecodecamp&apos;s{" "}
             <a
               href="https://www.freecodecamp.org/learn/responsive-web-design/"
               target="_blank"

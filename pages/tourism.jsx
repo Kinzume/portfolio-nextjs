@@ -31,13 +31,14 @@ const tourism = () => {
               href="https://www.frontendmentor.io/challenges/space-tourism-multipage-website-gRWj1URZ3"
               target="_blank"
               rel="noreferrer"
+              className="underline hover:text-[#93FF75]"
             >
               space tourism website challenge on Frontend Mentor.
             </a>
             <br />
-            This is a fully responsive website which has various hover states,
+            This is a fully responsive website which has various hover states
             and different pages with toggles between tabs to see new information
-            on space tourism. <br /> Some of my learnings include CSS{" "}
+            about space tourism. <br /> Some of my learnings include CSS{" "}
             <code>.class1.class2</code> selectors, feature queries, various
             Flexbox and Grid properties, local undefined custom properties,
             ARIA, building interactive elements with JavaScript and WAI-ARIA

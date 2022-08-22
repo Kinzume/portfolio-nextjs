@@ -32,10 +32,10 @@ const About = () => {
             tourism website.
           </p>
           <p className="py-2">
-            I&apos;m currently learning how to use a popular front-end framework
-            called React to build more complex applications. I&apos;m currently
-            open to full-time employment opportunities for front-end
-            development.
+            I&apos;m currently establishing my experience with the popular
+            front-end framework called React to build more complex applications.
+            I&apos;m currently open to full-time employment opportunities for
+            front-end development.
           </p>
         </div>
         <picture>

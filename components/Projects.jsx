@@ -3,6 +3,7 @@ import portfolioImg from "../public/assets/projects/portfolio-dmf.png";
 import calculatorImg from "../public/assets/projects/calculator.png";
 import ratingImg from "../public/assets/projects/rating-component.png";
 import tourismImg from "../public/assets/projects/space-tourism.png";
+import pokedexImg from "../public/assets/projects/pokedex.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -40,6 +41,13 @@ const Projects = () => {
           projectDate="May 2022 - Jun 2022"
           projectSkills="HTML | CSS | JavaScript"
           projectUrl="/tourism"
+        />
+        <ProjectItem
+          title="Pokedex"
+          backgroundImg={pokedexImg}
+          projectDate="Sept 2022 - Oct 2022"
+          projectSkills="Fetch | REST API | Document Object Model"
+          projectUrl="/pokedex"
         />
       </div>
     </div>

@@ -96,7 +96,7 @@ const pokedex = () => {
               Code
             </a>
           </div>
-          <Link href="/#projects">
+          <Link href="/..">
             <p className="underline cursor-pointer hover:text-[#93FF75] w-fit">
               Back to projects
             </p>

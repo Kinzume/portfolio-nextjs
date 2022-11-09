@@ -1,10 +1,10 @@
-import pokedexImg from "../public/assets/projects/pokedex.png";
+import bootstrapImg from "../public/assets/projects/bootstrap-page.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const pokedex = () => {
+const bootstrap = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,13 @@ const pokedex = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={pokedexImg}
+          objectPosition="top"
+          src={bootstrapImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 space-y-3">
-          <h2>Pokedex</h2>
-          <p>Sept 2022 - Nov 2022</p>
+          <h2>Bootcamp Landing Page</h2>
+          <p>Oct 2022</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid items-center md:grid-cols-5 gap-8 pt-8">
@@ -26,61 +27,40 @@ const pokedex = () => {
           <p>Project</p>
           <p className="font-bold text-4xl">Overview</p>
           <p>
-            A Pokedex app inspired by{" "}
+            Credit to{" "}
             <a
-              href="https://youtu.be/VUu3mGuN9S0?t=10"
+              href="https://www.youtube.com/watch?v=4sosXZsdy-s"
               target="_blank"
               rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
-              Pokemon Emerald
+              Traversy Media
             </a>
-            . The Pokedex consists of two containers, one for the images and
-            another for the names. The Pokemon data is retrieved from PokeAPI
-            via the Fetch API and rendered using the Document Object Model.
           </p>
           <p>
-            Navigation controls have also been added to replicate the controls
-            in the original game, and in addition the user can scroll the
-            containers using keyboard navigation or a scroll wheel. This
-            functionality was made possible with Aleksandr Hovhannisyan&apos;s
-            guide on{" "}
+            This app was built using Bootstrap 5. Once I was comfortable with
+            the framework, I made adjustments to the original project by
+            changing the colours, remaking the hero section and adding a courses
+            section, taking inspiration from the &quot;available programs&quot;
+            section from the website{" "}
             <a
-              href="https://www.aleksandrhovhannisyan.com/blog/image-carousel-tutorial/"
+              href="https://codeworks.me/london/"
               target="_blank"
               rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
-              creating accessible image carousels
-            </a>
-            . The user can scroll both containers simultaneously, a feature I
-            was able to implement with the help of this{" "}
-            <a
-              href="https://stackoverflow.com/questions/9236314/how-do-i-synchronize-the-scroll-position-of-two-divs"
-              target="_blank"
-              rel="noreferrer"
-              className="underline hover:text-[#93FF75]"
-            >
-              post on Stack Overflow by Artem Kachanovskyi
+              https://codeworks.me/london/
             </a>
             .
           </p>
-          <p>
-            The scrollbar has been styled using the{" "}
-            <a
-              href="https://github.com/Grsmto/simplebar"
-              target="_blank"
-              rel="noreferrer"
-              className="underline hover:text-[#93FF75]"
-            >
-              SimpleBar library
-            </a>
-            . The app also comes with a loading animation and is responsive.
-          </p>
 
+          <p>
+            The website is fully responsive and has features such as cards, an
+            accordion and modal.
+          </p>
           <div className="space-x-2">
             <a
-              href="https://kinzume.github.io/pokedex/"
+              href="https://kinzume.github.io/landing-page-bootstrap/"
               target="_blank"
               rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
@@ -88,7 +68,7 @@ const pokedex = () => {
               Demo
             </a>
             <a
-              href="https://github.com/Kinzume/pokedex"
+              href="https://github.com/Kinzume/landing-page-bootstrap"
               target="_blank"
               rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
@@ -148,4 +128,4 @@ const pokedex = () => {
   );
 };
 
-export default pokedex;
+export default bootstrap;

@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project title hover effect, from https://heaven-burns-red.com/character/
 
-## Getting Started
+<br>
+1. Set the linear gradient (and a border to see what's going on) with the color stop at around 50%.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+```css
+.container {
+  width: 50vw;
+  height: 50vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff 0,
+    #ffffff 50%,
+    #93ff75 100%
+  );
+  border: 1px solid black;
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Output:<br>
+![CSS output](./public/assets/readme/output-one.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+2. Set the background y-position to 200%. This gives the effect of shifting where the color starts to transition to the bottom of the container.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```css
+.container {
+  width: 50vw;
+  height: 50vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff 0,
+    #ffffff 50%,
+    #93ff75 100%
+  );
+  background-size: 100% 200%;
+  border: 1px solid black;
+}
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Output:<br>
+![CSS output](./public/assets/readme/output-two.png)
 
-## Learn More
+This can be seen by changing the color stop to around 45% (you'll just about see where the gradient color starts to tranisition).
 
-To learn more about Next.js, take a look at the following resources:
+Output with `background-image: linear-gradient(to bottom,#FFFFFF 0,#FFFFFF 45%,#93ff75 100%)`:
+![CSS output](./public/assets/readme/output-two-adj.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. The effect of the transition comes from setting the background y-position from 0% and 100% on the hover state, "pulling" the color to the top of the container.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```css
+.container {
+  width: 50vw;
+  height: 50vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff 0,
+    #ffffff 50%,
+    #93ff75 100%
+  );
+  background-size: 100% 200%;
+  background-position: 100% 0%;
+  /* Add transitions for the background position */
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  border: 1px solid black;
+}
 
-## Deploy on Vercel
+.container:hover {
+  background-position: 100% 100%;
+}
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Output:<br>
+![CSS output](./public/assets/readme/animation.gif)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can then add `color: transparent` and `background-clip: text` on some text so that the background transition only shows under the text.

@@ -12,7 +12,7 @@ const Main = () => {
         </h1>
         <p className="text-xl font-medium">Web Developer</p>
         <p className="lg:w-8/12">
-          I&apos;m a first-class honours Mathematics graduate and have been
+          I&apos;m a First-Class Honours Mathematics graduate and have been
           teaching myself web development since early 2022. Currently open to
           full-time employment opportunities.
         </p>

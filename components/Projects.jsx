@@ -40,27 +40,6 @@ const Projects = () => {
           projectSkillsTag={["HTML", "CSS", "JavaScript"]}
           projectUrl="/tourism"
         />
-        <ProjectItem
-          title="Interactive Rating Component"
-          backgroundImg={ratingImg}
-          projectDate="Apr 2022"
-          projectSkillsTag={["HTML", "CSS"]}
-          projectUrl="/rating"
-        />
-        <ProjectItem
-          title="Calculator App"
-          backgroundImg={calculatorImg}
-          projectDate="Apr 2022"
-          projectSkillsTag={["HTML", "CSS", "JavaScript"]}
-          projectUrl="/calculator"
-        />
-        <ProjectItem
-          title="Personal Portfolio"
-          backgroundImg={portfolioImg}
-          projectDate="Mar 2022"
-          projectSkillsTag={["HTML", "CSS"]}
-          projectUrl="/portfolio"
-        />
       </div>
     </div>
   );

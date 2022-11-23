@@ -1,7 +1,4 @@
 import React from "react";
-import portfolioImg from "../public/assets/projects/portfolio-dmf.png";
-import calculatorImg from "../public/assets/projects/calculator.png";
-import ratingImg from "../public/assets/projects/rating-component.png";
 import tourismImg from "../public/assets/projects/space-tourism.png";
 import pokedexImg from "../public/assets/projects/pokedex.png";
 import linkedInImg from "../public/assets/projects/linkedin-page.png";
@@ -10,7 +7,10 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div id="projects" className="max-w-[1240px] mx-auto px-2 pt-16">
+    <div
+      id="projects"
+      className="max-w-[1240px] mx-auto px-2 pt-16"
+    >
       <div className="grid md:grid-cols-2 gap-8">
         <ProjectItem
           title="Pokedex"

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import About from "../components/About";
 import Contact from "../components/Contact";
-import Main from "../components/Main";
+import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 
 export default function Home() {
@@ -35,7 +35,7 @@ export default function Home() {
           href="/site.webmanifest"
         />
       </Head>
-      <Main />
+      <Hero />
       <Projects />
       <About />
       <Contact />

@@ -15,6 +15,7 @@ const ProjectItem = ({
       <Link href={projectUrl}>
         <div className="relative flex flex-col items-center justify-center h-auto w-full group cursor-pointer  ">
           <Image
+            priority={true}
             className="group-hover:scale-110 transition-transform duration-300"
             src={backgroundImg}
             alt="/"
@@ -30,7 +31,10 @@ const ProjectItem = ({
               </h3>
               <div className="flex gap-x-2 text-white flex-wrap">
                 {projectSkillsTag?.map((item, i) => (
-                  <SkillsTag item={item} key={i} />
+                  <SkillsTag
+                    item={item}
+                    key={i}
+                  />
                 ))}
               </div>
             </div>

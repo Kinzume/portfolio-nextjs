@@ -1,10 +1,10 @@
-import portfolioImg from "../public/assets/projects/portfolio-dmf.png";
-import { RiRadioButtonFill } from "react-icons/ri";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { RiRadioButtonFill } from "react-icons/ri";
+import playerSearchImg from "../public/assets/projects/XIV-API-player-character-search.png";
 
-const portfolio = () => {
+const ffxivPlayerSearch = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,13 @@ const portfolio = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={portfolioImg}
+          objectPosition="top"
+          src={playerSearchImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 space-y-3">
-          <h2>Personal Portfolio</h2>
-          <p>Mar 2022</p>
+          <h2>FFXIV Player Character Search Tool</h2>
+          <p>Dec 2022 - Jan 2023</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid items-center md:grid-cols-5 gap-8 pt-8">
@@ -26,43 +27,23 @@ const portfolio = () => {
           <p>Project</p>
           <p className="font-bold text-4xl">Overview</p>
           <p>
-            This is my first personal portfolio site which I designed in Figma
-            and built with HTML and CSS (no frameworks). <br /> The user can
-            navigate to the Home, About, Portfolio and Contact sections. <br />{" "}
-            This project was used as an opportunity to practise my CSS skills
-            (Grid, Custom Properties and Resets) which I learnt from
-            freecodecamp&apos;s{" "}
+            This website allows users to search and view player character
+            profiles from the critically acclaimed MMORPG, Final Fantasy XIV.
+            This is a simpler version of the character search tool which can be
+            found on the{" "}
             <a
-              href="https://www.freecodecamp.org/learn/responsive-web-design/"
+              href="https://eu.finalfantasyxiv.com/lodestone/character/"
               target="_blank"
               rel="noreferrer"
               className="underline hover:text-[#93FF75]"
             >
-              responsive web design course
-            </a>
-            , with the theme and design being inspired by{" "}
-            <a
-              href="https://brittanychiang.com/"
-              target="_blank"
-              rel="noreferrer"
-              className="underline hover:text-[#93FF75]"
-            >
-              Britanny Chiang
-            </a>{" "}
-            and{" "}
-            <a
-              href="https://www.lapix.jp/"
-              target="_blank"
-              rel="noreferrer"
-              className="underline hover:text-[#93FF75]"
-            >
-              Lapix
+              Lodestone
             </a>
             .
           </p>
           <div className="space-x-2">
             <a
-              href="https://kinzume.github.io/portfolio-dmf/"
+              href="https://kinzume.github.io/ffxivapi-app/"
               target="_blank"
               rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
@@ -70,7 +51,7 @@ const portfolio = () => {
               Demo
             </a>
             <a
-              href="https://github.com/Kinzume/portfolio-dmf"
+              href="https://github.com/Kinzume/ffxivapi-app"
               target="_blank"
               rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
@@ -86,18 +67,26 @@ const portfolio = () => {
         </div>
         <div className="col-span-4 md:col-span-1 bg-[#0F1E35] rounded-xl p-3 space-y-3">
           <p className="text-center font-bold">Technologies</p>
-          <ul className="grid grid-cols-3 md:grid-cols-1 space-y-1">
+          <ul className="grid grid-cols-3 md:grid-cols-1">
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>HTML</p>
+              <p>React</p>
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>CSS custom properties</p>
+              <p>Fetch API</p>
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>Grid</p>
+              <p>XIVAPI</p>
+            </li>
+            <li className="flex items-center gap-1">
+              <RiRadioButtonFill />
+              <p>Material UI</p>
+            </li>
+            <li className="flex items-center gap-1">
+              <RiRadioButtonFill />
+              <p>ViteJS</p>
             </li>
           </ul>
         </div>
@@ -106,4 +95,4 @@ const portfolio = () => {
   );
 };
 
-export default portfolio;
+export default ffxivPlayerSearch;

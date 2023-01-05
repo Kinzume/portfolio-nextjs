@@ -2,10 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div id="about" className="w-full h-fit flex items-center pt-16">
+    <div
+      id="about"
+      className="w-full h-fit flex items-center pt-16"
+    >
       <div className="md:w-10/12 p-2 max-w-[1240px] m-auto md:grid items-center">
         <div className="flex flex-col">
-          <h2 className="uppercase text-xl tracking-widest text-[#93FF75]">
+          <h2 className="uppercase text-xl tracking-widest text-[#93FF75] text-center">
             About
           </h2>
           <p className="py-2">
@@ -25,9 +28,17 @@ const About = () => {
             project to date is my Pokedex app which uses the Fetch API.
           </p>
           <p className="py-2">
-            I&apos;m currently working on a portfolio website called Hamworks.
-            I&apos;ll be posting more information on development in the near
-            future!
+            I&apos;m currently building dynamic UIs to make immersive user
+            experiences with APIs {"("}such as{" "}
+            <a
+              href="https://xivapi.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="underline hover:text-[#93FF75]"
+            >
+              XIVAPI
+            </a>
+            {")"} and React.
           </p>
         </div>
       </div>

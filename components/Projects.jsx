@@ -17,7 +17,7 @@ const Projects = () => {
           title="FFXIV Player Character Search Tool"
           backgroundImg={playerSearchImg}
           projectDate="Dec 2022 - Jan 2023"
-          projectSkillsTag={["REST APIs", "Document Object Model"]}
+          projectSkillsTag={["React", "REST APIs", "Material UI"]}
           projectUrl="/ffxiv-player-search"
         />
         <ProjectItem

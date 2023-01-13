@@ -5,7 +5,7 @@ import linkedInImg from "../public/assets/projects/linkedin-page.png";
 import bootstrapImg from "../public/assets/projects/bootstrap-page.png";
 import ProjectItem from "./ProjectItem";
 import playerSearchImg from "../public/assets/projects/XIV-API-player-character-search.png";
-
+import xivitemsearchImg from "../public/assets/projects/xiv-item-search.png";
 const Projects = () => {
   return (
     <div
@@ -13,6 +13,13 @@ const Projects = () => {
       className="max-w-[1240px] mx-auto px-2 pt-16"
     >
       <div className="grid md:grid-cols-2 gap-8">
+        <ProjectItem
+          title="FFXIV Item Search Tool"
+          backgroundImg={xivitemsearchImg}
+          projectDate="Jan 2023"
+          projectSkillsTag={["React", "REST APIs", "Material UI"]}
+          projectUrl="/ffxiv-item-search"
+        />
         <ProjectItem
           title="FFXIV Player Character Search Tool"
           backgroundImg={playerSearchImg}

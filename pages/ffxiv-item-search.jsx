@@ -18,8 +18,8 @@ const ffxivItemSearch = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 space-y-3">
-          <h2>FFXIV Player Character Search Tool</h2>
-          <p>Dec 2022 - Jan 2023</p>
+          <h2>FFXIV Item Search Tool</h2>
+          <p>Jan 2023</p>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid items-center md:grid-cols-5 gap-8 pt-8">

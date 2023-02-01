@@ -2,9 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { RiRadioButtonFill } from "react-icons/ri";
-import xivitemsearchImg from "../public/assets/projects/xiv-item-search.png";
+import userdashboardImg from "../public/assets/projects/user-dashboard.png";
 
-const ffxivItemSearch = () => {
+const userDashboard = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -14,11 +14,11 @@ const ffxivItemSearch = () => {
           layout="fill"
           objectFit="cover"
           objectPosition="top"
-          src={xivitemsearchImg}
+          src={userdashboardImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] z-10 p-2 space-y-3">
-          <h2>FFXIV Item Search Tool</h2>
+          <h2>User Dashboard</h2>
           <p>Jan 2023</p>
         </div>
       </div>
@@ -27,42 +27,57 @@ const ffxivItemSearch = () => {
           <p>Project</p>
           <p className="font-bold text-4xl">Overview</p>
           <p>
-            Search and view item data from Final Fantasy XIV! Inspired by{" "}
+            This is a clone of the{" "}
             <a
-              href="https://ffxiv.gamerescape.com/wiki/Category:Item"
+              href="https://minimals.cc/dashboard/app"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="underline hover:text-[#93FF75]"
             >
-              Gamer {"Escape's"} Item Wiki
+              dashboard app
             </a>{" "}
-            and built using my{" "}
+            from minimals.cc.
+          </p>
+          <p>
+            Data is fetched from{" "}
             <a
-              href="https://kinzume.github.io/ffxivapi-app/"
+              href="https://random-data-api.com/"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
               className="underline hover:text-[#93FF75]"
             >
-              FFXIV Player Character Search Tool
+              Random Data API
             </a>
-            , users can also filter for items by categories such as Armour,
-            Tools and Materials!
-            <p>
-              Game data is fetched from{" "}
-              <a
-                href="https://xivapi.com/"
-                target="_blank"
-                rel="noreferrer"
-                className="underline hover:text-[#93FF75]"
-              >
-                XIVAPI
-              </a>
-              .
-            </p>
+            .
           </p>
+          <div>
+            <p>SVG Sources:</p>
+            <ul>
+              <li>
+                <a
+                  href="https://undraw.co/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#93FF75]"
+                >
+                  https://undraw.co/
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.svgrepo.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="underline hover:text-[#93FF75]"
+                >
+                  https://www.svgrepo.com/
+                </a>
+              </li>
+            </ul>
+          </div>
           <div className="space-x-2">
             <a
-              href="https://kinzume.github.io/ffxiv-item-search-tool/"
+              href="https://kinzume.github.io/ffxiv-player-character-search-tool/"
               target="_blank"
               rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
@@ -70,7 +85,7 @@ const ffxivItemSearch = () => {
               Demo
             </a>
             <a
-              href="https://github.com/Kinzume/ffxiv-item-search-tool"
+              href="https://github.com/Kinzume/ffxiv-player-character-search-tool"
               target="_blank"
               rel="noreferrer"
               className="text-lg tracking-wider px-8 py-2 rounded-xl uppercase bg-[#1F2E45] text-[#93FF75] hover:bg-[#93FF75] hover:text-[#000C1F] ease-in duration-200"
@@ -93,11 +108,11 @@ const ffxivItemSearch = () => {
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>Fetch API</p>
+              <p>TypeScript</p>
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>XIVAPI</p>
+              <p>Vite</p>
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
@@ -105,7 +120,11 @@ const ffxivItemSearch = () => {
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>Vite</p>
+              <p>Axios</p>
+            </li>
+            <li className="flex items-center gap-1">
+              <RiRadioButtonFill />
+              <p>ApexCharts</p>
             </li>
           </ul>
         </div>
@@ -114,4 +133,4 @@ const ffxivItemSearch = () => {
   );
 };
 
-export default ffxivItemSearch;
+export default userDashboard;

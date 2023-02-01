@@ -86,7 +86,7 @@ const ffxivPlayerSearch = () => {
             </li>
             <li className="flex items-center gap-1">
               <RiRadioButtonFill />
-              <p>ViteJS</p>
+              <p>Vite</p>
             </li>
           </ul>
         </div>
